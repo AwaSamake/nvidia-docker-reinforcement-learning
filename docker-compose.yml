@@ -3,6 +3,6 @@ version: '3'
 services:
   hello-world:
     image: hello-world
-    runtime: nvidia
+    #runtime: nvidia
     build: ./hello-world/
     
