@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 WORKDIR /app
 ADD . /app
 
-CMD ["python", "-m", "helloworld"]
+CMD ["python", "-m", "hello-tensorflow"]

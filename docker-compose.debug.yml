@@ -1,8 +1,9 @@
-version: '3'
+version: '2.3'
 
 services:
-  hello-world:
-    image: hello-world
+  hello-tensorflow:
+    image: hello-tensorflow
+    runtime: nvidia
     build:
-      context: ./hello-world/
+      context: ./hello-tensorflow/
       dockerfile: Dockerfile

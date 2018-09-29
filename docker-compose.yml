@@ -1,7 +1,7 @@
 version: '2.3'
 
 services:
-  hello-world:
-    image: hello-world
+  hello-tensorflow:
+    image: hello-tensorflow
     runtime: nvidia
-    build: ./hello-world/
+    build: ./hello-tensorflow/
