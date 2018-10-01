@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/tensorflow:18.08-py3
+FROM shahil/nvidia-docker-tensorflow
 
 LABEL Name=hello-tensorflow Version=0.0.1
 
