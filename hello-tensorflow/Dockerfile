@@ -1,4 +1,4 @@
-FROM shahil/nvidia-docker-tensorflow
+FROM shahil/nvidia-docker-rl
 
 LABEL Name=hello-tensorflow Version=0.0.1
 
