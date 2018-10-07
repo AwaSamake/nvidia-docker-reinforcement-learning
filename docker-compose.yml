@@ -5,3 +5,8 @@ services:
     image: hello-tensorflow
     runtime: nvidia
     build: ./hello-tensorflow/
+
+  hello-pytorch:
+    image: hello-pytorch
+    runtime: nvidia
+    build: ./hello-pytorch/

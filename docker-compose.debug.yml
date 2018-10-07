@@ -7,3 +7,10 @@ services:
     build:
       context: ./hello-tensorflow/
       dockerfile: Dockerfile
+
+  hello-pytorch:
+    image: hello-pytorch
+    runtime: nvidia
+    build:
+      context: ./hello-pytorch/
+      dockerfile: Dockerfile
